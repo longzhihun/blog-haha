@@ -6,8 +6,8 @@ variable "vpc-cidr" {
 variable "subnets" {
   type = list(map(string))
   default = [
-    { cidr = "10.1.0.0/24", az = "ap-northeast-1a" },
-    { cidr = "10.1.2.0/24", az = "ap-northeast-1c" },
+    { cidr = "10.1.0.0/24", az = "us-east-2a" },
+    { cidr = "10.1.2.0/24", az = "us-east-2b" },
   ]
 }
 

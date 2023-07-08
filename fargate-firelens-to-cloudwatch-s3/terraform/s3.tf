@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "demo-fluent-bit" {
-  bucket = "zoo200-demo-fluent-bit"
+  bucket = "ecs-fluent-bit-test223"
 
 }
 

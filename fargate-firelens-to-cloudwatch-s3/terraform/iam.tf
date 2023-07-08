@@ -69,7 +69,7 @@ resource "aws_iam_role" "ecs-task-execution" {
 POLICY
 
   max_session_duration = "3600"
-  name                 = "ecsTaskExecutionRole"
+  name                 = "demoEcsTaskExecutionRole"
   path                 = "/"
 }
 
